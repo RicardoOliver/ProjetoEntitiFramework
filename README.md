@@ -1,7 +1,5 @@
 ## Melhorias
 
-## Melhorias
-
 Este código define a classe CadastroContext que herda da classe DbContext, fornecida pelo Entity Framework. A classe DbContext é responsável por facilitar o acesso e a manipulação de dados de um banco de dados usando o padrão ORM (Object-Relational Mapping).
 
 A classe CadastroContext possui várias propriedades do tipo DbSet<T>, onde cada uma delas representa uma tabela no banco de dados. Essas tabelas são mapeadas para classes de modelo específicas, como CompraMercadoriaModel, LoginViewModel, NomeMercadoriaModel, etc.
