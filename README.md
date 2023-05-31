@@ -29,6 +29,7 @@ namespace Negocio.Web.Infra.Context
     {
 
         public DbSet<CompraMercadoriaModel> compraMercadoriaModels { get; set; }
+    
         public DbSet<LoginViewModel> loginViewModels { get; set; }
 
         public DbSet<NomeMercadoriaModel> nomeMercadoriaModels { get; set; }
