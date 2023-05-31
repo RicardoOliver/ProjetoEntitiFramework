@@ -18,7 +18,7 @@ Além disso, o método OnModelCreating() é sobrescrito para configurar o mapeam
 
 Em resumo, esse código define o contexto de banco de dados CadastroContext e mapeia várias classes de modelo para tabelas no banco de dados. Ele também configura o contexto e o mapeamento das entidades durante a inicialização.
     
-    ```C#
+   
     
     using Negocio.Web.Models;
     using System.Data.Common;
@@ -80,6 +80,6 @@ Em resumo, esse código define o contexto de banco de dados CadastroContext e ma
     }
 }
     
-    ```
+
 
 
